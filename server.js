@@ -1,6 +1,6 @@
 // ENV variables
 require("dotenv").config()
-const { PORT = 4500, NODE_ENV = "development" } = process.env
+const { PORT = 3000, NODE_ENV = "development" } = process.env
 
 // CORS
 const cors = require("cors")
